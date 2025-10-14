@@ -29,7 +29,7 @@ const PageHeader = () => {
     const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="container  w-full  mx-auto">
+      <div className="  w-full  mx-auto">
         <div className="w-full py-4 flex items-center gap-2 justify-around border-b-[1px] border-theme-gray">
           <div>
             <LogoAndName />
@@ -51,7 +51,7 @@ const PageHeader = () => {
           <MainSearch />
         </div>
         <div className="header-row-2 py-[10px] hidden md:block">
-          <div className="container mx-auto flex items-center justify-around">
+          <div className=" mx-auto flex items-center justify-around">
             {/* Button */}
             <div>
               <Button

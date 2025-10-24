@@ -1,10 +1,10 @@
-import Button from "../ui/Button";
+import Button from "../../ui/Button";
 
 const MainSearch = () => {
   return (
     <div className="flex bg-[#F3F3F3] items-center text-xs w-[500px]">
       <div className="flex px-3 w-[calc(100%-55px)]">
-        <span className="pe-3 w-[136px]">
+        <span className="pe-3 w-[136px] hidden sm:block">
           <select className="w-full">
             <option value="1">All Categories</option>
             <option value="2">2</option>
@@ -17,7 +17,7 @@ const MainSearch = () => {
         <input
           type="text"
           placeholder="Search for items..."
-          className="border-l border-solid border-theme-gray ps-2 w-[calc(100%-136px)]"
+          className="md:border-l border-solid border-theme-gray ps-2 w-full md:w-[calc(100%-136px)]"
         />
       </div>
 

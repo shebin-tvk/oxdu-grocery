@@ -1,13 +1,17 @@
-import Banner from "../components/banner/banner"
-import PageHeader from "../components/Header/PageHeader"
-import CategorySlider from "../components/category/CategorySlider"
+import Banner from "../components/HomePage/banner/banner"
+import CategorySlider from "../components/HomePage/category/CategorySlider"
+import FeatureSlider from "../components/HomePage/Featured Products/featureSlide"
+import Offers from "../components/HomePage/banner/Offers"
+import DailyBestSells from "../components/HomePage/DailyBestSells/DailyBestSells"
 
 const HomePage = () => {
   return (
     <div>
-        <PageHeader/>
         <Banner/>
         <CategorySlider/>
+        <FeatureSlider/>
+        <Offers/>
+        <DailyBestSells/>
     </div>
   )
 }

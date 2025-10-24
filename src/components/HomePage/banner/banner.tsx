@@ -10,7 +10,7 @@ const Banner = () => {
           className="absolute top-0 right-0 hidden md:block"
         />
         <span className="font-bold text-[55px] text-theme-black leading-18">
-          Don’t miss our daily <br /> amazing deals.
+          {/* Don’t miss our daily <br /> amazing deals. */}
         </span>
       </div>
     </div>

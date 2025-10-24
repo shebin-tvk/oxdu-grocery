@@ -2,8 +2,8 @@ import LogoAndName from "./LogoAndName.js";
 import MainSearch from "./MainSearch.js";
 import HeaderWishListAndCart from "./HeaderWishListAndCart.js";
 import HeaderUser from "./HeaderUser.js";
-import { FireIcon, HomeIcon, PercentageIcon, PromoIcon } from "./icons";
-import Button from "../ui/Button.js";
+import { FireIcon, HomeIcon, PercentageIcon, PromoIcon } from "./icons/index.js";
+import Button from "../../ui/Button.js";
 import { Menu } from "lucide-react";  
 import { useState } from "react";
 
@@ -47,7 +47,7 @@ const PageHeader = () => {
             </button>
           </div>
         </div>
-        <div className=" md:hidden w-full flex justify-around py-2  mx-auto">
+        <div className=" md:hidden  flex justify-center items-center py-2  mx-5">
           <MainSearch />
         </div>
         <div className="header-row-2 py-[10px] hidden md:block">

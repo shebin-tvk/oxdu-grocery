@@ -4,7 +4,7 @@ const LogoAndName = () => {
   return (
     <div className="flex items-center gap-2 ">
       <img
-        src="../../public/logo.svg"
+        src="logo.svg"
         alt="logo"
         className="h-[39px] w-[39px]"
       />

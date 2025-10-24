@@ -5,22 +5,24 @@ import "swiper/css";
 
 // import Image from "./Image";
 
-import { getBgColor, ExploreItems } from "../../constants/index";
+import { getBgColor, ExploreItems } from "../../../constants/index";
 
 export default function CategorySlider() {
  
 
   return (
     <div className="container mx-auto my-25">
-      <div className="ml-5 md:ml-30 mb-9">
+      <div className="ml-5 md:ml-28 mb-9">
         <h2 className="font-semibold text-[32px] text-theme-black">
           Explore Categories
         </h2>
       </div>
       <div className="flex justify-around items-center gap-9 mx-9">
-        <div className="bg-[#f2f3f4] p-2 rounded-full md:block hidden">she</div>
+        <div className="bg-[#f2f3f4] p-2 rounded-full md:block hidden">
+          <img src="li_arrow-right.svg" />
+        </div>
         <Swiper
-          spaceBetween={12}
+          spaceBetween={21}
           slidesPerView={2}
           onSwiper={(swiper) => console.log(swiper)}
           breakpoints={{
@@ -71,7 +73,7 @@ export default function CategorySlider() {
             ))}
         </Swiper>
         <div className="bg-[#f2f3f4]  p-2 rounded-full md:block hidden">
-          she
+          <img src="li_arrow-left.svg" />
         </div>
       </div>
     </div>
